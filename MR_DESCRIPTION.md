@@ -119,3 +119,7 @@ retrying be left to the caller? A retry makes one-off blips invisible, but a
 timeout means "we do not know what happened". That is harmless for a
 read-only `GET`, and I would not want the same default copied into the
 capstone for anything that writes. Where would you draw that line?
+
+## Uso de IA
+
+Este lab fue implementado con asistencia de Claude Code (Anthropic). Revisé el código, los tests y esta descripción, y puedo explicar cada decisión de diseño. Las líneas `Co-Authored-By` se quitaron de los mensajes de commit para mantener el historial limpio; esta sección es la declaración de uso de IA.
