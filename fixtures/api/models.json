@@ -1,0 +1,4 @@
+[
+  {"id": "model-small", "context_window": 8192, "status": "available"},
+  {"id": "model-large", "context_window": 32768, "status": "available"}
+]
